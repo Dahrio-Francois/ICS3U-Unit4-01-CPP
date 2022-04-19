@@ -21,8 +21,8 @@ int main() {
         // process & output
         integerAsNumber = std::stoi(integerAsString);
         while (loopCounter <= integerAsNumber) {
-        calculation = calculation + loopCounter;
-        loopCounter = loopCounter + 1;
+            calculation = calculation + loopCounter;
+            loopCounter = loopCounter + 1;
         } std::cout << "\nThe sum of those number is " <<
         calculation << std::endl;
     } catch (std::invalid_argument) {
